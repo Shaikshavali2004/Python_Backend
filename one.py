@@ -1,0 +1,9 @@
+a=10
+b=10,20
+c,d=20,30
+print(type(c))
+print(type(d))
+print(a)
+print(b)
+print(type(a))
+print(type(b))
