@@ -1,0 +1,8 @@
+print(10)
+print(0b1010)
+print(0o12)
+print(0xA)
+print(type(10))
+print(type(0b1010))
+print(type(0o12))
+print(type(0xA))
