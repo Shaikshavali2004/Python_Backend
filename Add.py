@@ -23,6 +23,7 @@ def add_numbers_with_defaults(num1=10, num2=19):
       return num1 + num2
 print("The sum of the two numbers is: ", add_numbers_with_defaults(num1, num2))
 
+# simple program to add two numbers
 a = 10
 b =  20
 c = a+b
