@@ -998,8 +998,8 @@ customers=[{"c_id":1,"c_name":"Sheilakathryn","c_orders":"Wine - Ice Wine","emai
 {"c_id":998,"c_name":"Moll","c_orders":"Tomatoes - Hot House","email":"myegorovninrp@ning.com","gender":"Non-binary","location":"Brusque"},
 {"c_id":999,"c_name":"Anna-maria","c_orders":"Straws - Cocktale","email":"averyanrq@nature.com","gender":"Female","location":"Raniżów"}]
 
-for cus in customers:
-    """print("customer id:","|",cus["c_id"],"|","\n","customer name:","|",cus["c_name"],"|","\n","customer orders:","|",cus["c_orders"],"|","\n","gender:","|",cus["gender"],"|")"""
+"""for cus in customers:
+    print("customer id:","|",cus["c_id"],"|","\n","customer name:","|",cus["c_name"],"|","\n","customer orders:","|",cus["c_orders"],"|","\n","gender:","|",cus["gender"],"|")
     print("location:","|",cus["location"],"|")
     print('email:',"|",cus['email'],"|")
     print("*" * 60)
@@ -1008,4 +1008,11 @@ for cus in customers:
 
     #To find length of the list
     print("Total number of customers:", len(customers))
-    print("Name length:",len(cus["c_name"]))
+    print("Name length:",len(cus["c_name"]))"""
+
+i = 1
+while i <= 10:
+    print(customers[i]['c_id'],customers[i]['c_name'],customers[i]['gender'])
+    i=i+1
+
+
