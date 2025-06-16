@@ -1,7 +1,7 @@
 eid = 101
 ename = "Rahul"
 esal = 45000.0
-c = 10+5j
+com = 10+5j
 avail = True
 uids = {101,102,103}
 enames = ["Rahul", "Ravi", "Rani"]
@@ -20,7 +20,7 @@ d=0xAB
 print(type(eid))
 print(type(ename))
 print(type(esal))
-print(type(c))
+print(type(com))
 print(type(avail))
 print(type(uids))
 print(type(enames))
@@ -35,3 +35,7 @@ print(type(a))
 print(type(b))
 print(type(c))
 print(type(d))
+print(a)
+print(b)
+print(c)
+print(d)
